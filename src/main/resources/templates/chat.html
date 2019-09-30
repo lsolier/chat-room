@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>WebSocket Demo</title>
+    <title>Chat Room</title>
     <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/main.css" rel="stylesheet"/>
     <script src="/webjars/jquery/jquery.min.js"></script>
@@ -65,6 +65,7 @@
         <div class="col-md-6">
             <form class="form-inline">
                 <div class="form-group">
+                    <span th:text=""></span>
                     <label for="connect">WebSocket connection:</label>
                     <button id="connect" class="btn btn-default" type="submit">Connect</button>
                     <button id="disconnect" class="btn btn-default" type="submit">Disconnect</button>
