@@ -1,7 +1,7 @@
 package com.lsolier.udacity.chatroom.controller;
 
-import com.udacity.chatroom.model.Message;
-import com.udacity.chatroom.model.User;
+import com.lsolier.udacity.chatroom.model.Message;
+import com.lsolier.udacity.chatroom.model.User;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
